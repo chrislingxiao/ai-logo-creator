@@ -34,7 +34,7 @@ const LookUp = {
         '⚫ Limited Design Options and Quality',
         '⚫ Slow (Not Recommended)',
       ],
-      button: 'Generate Free',
+      button: 'Create for Free',
     },
     {
       title: 'Premium',
@@ -45,7 +45,7 @@ const LookUp = {
         '⚫ Wait time: Less than 10 seconds',
         '⚫ Only 5 Credits',
       ],
-      button: 'Generate Free',
+      button: 'Got for it',
     },
   ],
 };
