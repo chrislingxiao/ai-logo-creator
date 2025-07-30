@@ -4,7 +4,6 @@ import {
   UserDetailContext,
   UserDetailContextType,
 } from '@/app/_context/UserDetailContext';
-import { db } from '@/app/config/FirebaseConfig';
 import axios from 'axios';
 import {
   collection,

@@ -1,6 +1,6 @@
 import dbConnect from '@/app/config/MongoDbConfig';
 import { NextRequest, NextResponse } from 'next/server';
-import { User } from '@/app/api/users/route';
+import User from '@/app/models/User';
 
 export async function GET(req: NextRequest) {
   try {

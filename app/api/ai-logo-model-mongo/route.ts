@@ -4,7 +4,7 @@ import Replicate from 'replicate';
 import sharp from 'sharp';
 import { AILogoPrompt } from '@/app/config/AIModel';
 import dbConnect from '@/app/config/MongoDbConfig';
-import { User } from '@/app/api/users/route';
+import User from '@/app/models/User';
 
 const maxDuration = 300;
 const POST = async (req: NextRequest) => {
